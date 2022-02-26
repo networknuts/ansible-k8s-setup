@@ -2,7 +2,7 @@
   become: yes
   tasks:
 
-   - name: disable firewall service
+   - name: disable firewall service for labs
      service:
         name: firewalld
         state: stopped
